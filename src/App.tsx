@@ -22,7 +22,7 @@ const App = () => {
     >
       <div className="w-full  flex justify-center  flex-col items-center text-[#ffffff] gap-6 sm:gap-10 lg:gap-12 pt-4 sm:pt-2">
         {/* this is the text wrapper container */}
-        <div className="flex justify-center items-center flex-col gap-2 sm:gap-3 lg:gap-4">
+        <div className="flex justify-center items-center flex-col gap-1 sm:gap-3 lg:gap-4">
           <div>
             <h1 className=" text-lg sm:text-2xl lg:text-4xl text-center sm:leading-[45px] font-extrabold">
               Turn collaboration into innovation
@@ -32,11 +32,7 @@ const App = () => {
             <p className="  text-[10px] sm:text-sm lg:text-lg text-[#3F83F8] leading-[27px] font-[500] text-center">
               Learn more about inner source
             </p>
-            <FaArrowRightLong
-              height="15px"
-              width="20px"
-              className="text-[#3F83F8] "
-            />
+            <FaArrowRightLong className="text-[#3F83F8] text-xs sm:text-base lg:text-xl " />
           </div>
         </div>
 
@@ -66,9 +62,9 @@ const App = () => {
 
       {/* this is the button wrapper div
        */}
-      <div className="flex gap-2 sm:gap-7 flex-col  sm:flex-row items-center w-full justify-center  sm:pb-3 lg:pb-2">
+      <div className="flex gap-2 sm:gap-7 flex-col  sm:flex-row items-center w-full justify-center pb-4 sm:pb-3 lg:pb-2">
         <button
-          className="  w-full sm:w-16 lg:w-20  p-1.5 sm:p-2 border border-white  rounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
+          className="  w-full sm:w-16 lg:w-20  p-1.5 sm:p-2 border  border-[#a09e9e] sm:border-white rounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
           onClick={() => {
             setColors(bgColor);
           }}
@@ -80,7 +76,7 @@ const App = () => {
         </button>
         {/* button red */}
         <button
-          className="  w-full sm:w-16 lg:w-20  p-1.5 sm:p-2 border border-white  rounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
+          className="  w-full sm:w-16 lg:w-20  p-1.5 sm:p-2 border  border-[#a09e9e] sm:border-white rounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
           onClick={() => {
             setColors(bgRed);
           }}
@@ -92,7 +88,7 @@ const App = () => {
         </button>
         {/* button green */}
         <button
-          className="  w-full sm:w-16 lg:w-20 p-1.5 sm:p-2 border border-white  rounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
+          className="  w-full sm:w-16 lg:w-20 p-1.5 sm:p-2 border  border-[#a09e9e] sm:border-whiterounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
           onClick={() => {
             setColors(bgGreen);
           }}
@@ -104,7 +100,7 @@ const App = () => {
         </button>
         {/* button blue */}
         <button
-          className="  w-full sm:w-16 lg:w-20   p-1.5 sm:p-2 border border-white  rounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
+          className="  w-full sm:w-16 lg:w-20   p-1.5 sm:p-2  border  border-[#a09e9e] sm:border-white  rounded-sm sm:rounded-lg flex items-center justify-center  gap-1"
           onClick={() => {
             setColors(bgBlue);
           }}
